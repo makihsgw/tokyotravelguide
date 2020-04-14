@@ -1,0 +1,126 @@
+/*top navigation bar */ 
+#topnav {
+  background-color: darkslategrey;
+  overflow: hidden;
+  font-family: 'poiret one', cursive; 
+  width: 100%;
+}
+
+#topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+#topnav a:hover {
+  background-color:slategray;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+#topnav a.active {
+  background-color: slateblue;
+  color: white;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+header {
+  background-image: url(..//img/heading.jpg);
+  background-repeat: no-repeat;  
+  background-size: 1425px 700px;
+  width: 100%;
+  padding: 200px 130px;
+  border: 50px;
+}
+
+h1  {
+    font-family: 'Poiret One', cursive;
+    font-size: 70px;
+    color:white; 
+    padding-left: 250px;
+    font-weight: bold;   
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.scroll {
+    font-size: 80px;
+}
+ 
+p {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color: darkslategray; 
+    text-align: center;
+  
+}
+
+table {
+  border-spacing: 20px;
+  background-color: skyblue;
+}
+td {
+  background-color: white;
+}
+th { 
+  font-weight: 600;
+}
+td, th {
+  font-family: 'Poiret One', cursive;
+}
+
+label{
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  margin-left: 500px ;
+}
+
+button {
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 650px ;
+}
+
+form p{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#email{
+  width: 20%;
+  height: 20px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-bottom: 30px;
+}
+
+#question{
+  width: 30%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  resize: none;
+}

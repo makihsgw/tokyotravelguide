@@ -1,0 +1,132 @@
+/*top navigation bar */ 
+.topnav {
+    background-color: darkslategrey;
+    overflow: hidden;
+    font-family: 'poiret one', cursive; 
+    width: 100%;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:slategray;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: slateblue;
+    color: white;
+  }
+
+
+  .header{
+    background-image: url(..//img/sushi3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1425px 1000px;
+    width: 100%;
+    padding: 200px 130px;
+    border: 50px;
+}
+  h1  {
+    font-family: 'Poiret One', cursive;
+    font-size: 70px;
+    color: white; 
+    padding-left: 500px;
+    font-weight: bold;
+
+    
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.scroll {
+  font-size: 80px;
+}
+
+h3{
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  line-height: 2;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+h3 img{
+  float: right;
+  width: 27%;
+  height: 20%;
+  margin-left: 60px;
+}
+
+p {
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  line-height: 2;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+h4{
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  line-height: 2;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+h4 img {
+  float: left;
+  width: 27%;
+  height: 20%;
+  margin-right: 60px;
+}
+
+label{
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  margin-left: 500px ;
+}
+
+button {
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 650px ;
+}
+
+form p{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#email{
+  width: 20%;
+  height: 20px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-bottom: 30px;
+}
+
+#question{
+  width: 30%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  resize: none;
+}

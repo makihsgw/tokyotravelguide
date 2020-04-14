@@ -1,0 +1,144 @@
+/*top navigation bar */ 
+#topnav {
+    background-color: darkslategrey;
+    overflow: hidden;
+    font-family: 'poiret one', cursive; 
+    width: 100%;
+  }
+  
+  #topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  #topnav a:hover {
+    background-color:slategray;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  #topnav a.active {
+    background-color: slateblue;
+    color: white;
+  }
+
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+h1  {
+    font-family: 'Poiret One', cursive;
+    font-size: 80px;
+    color: darkslategray; 
+
+    
+}
+
+h2 {
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+    color: darkslategray; 
+    text-align: center;
+
+}
+
+h3 {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    color: darkslategray; 
+    text-align: center;
+
+}
+
+header {
+    text-align: center;
+   
+}
+
+
+
+.list{
+    list-style: none ;
+    font-family: 'Poiret One', cursive;
+    font-size: 0;
+    color: azure;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.shibuya  {
+background-image: url(../img/shibuya.JPG);
+background-size: 480px 620px;
+background-repeat: no-repeat;
+/* display: block; */
+font-size: 60px;
+/* float: left; */
+width: 100%;
+padding: 200px 130px;
+border: 50px;
+}
+
+.sushi {
+background-image: url(../img/sushi.JPG); 
+background-size: 480px 620px;
+background-repeat: no-repeat;
+/* display: block; */
+font-size: 60px;
+/* float: center; */
+width: 100%;
+padding: 200px 130px;
+border: 50px;
+}
+
+.culture {
+background-image: url(../img/culture2.JPG);
+background-size: 480px 620px;
+background-repeat: no-repeat;
+/* display: block; */
+font-size: 60px;
+/* float: right; */
+width: 100%;
+padding: 200px 130px;
+border: 50px; 
+}
+
+
+/* unvisited link */
+a:link {
+    color:white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: pink;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+button { 
+    margin: auto;
+    display: block;
+    font-family: 'Poiret One', cursive;
+}
+
+#demo {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+}
