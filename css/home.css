@@ -82,7 +82,7 @@ header {
 }
 
 .shibuya  {
-background-image: url(../img/shibuya.JPG);
+background-image: url(../img/shibuya.jpg);
 background-size: 480px 620px;
 background-repeat: no-repeat;
 /* display: block; */
@@ -94,7 +94,7 @@ border: 50px;
 }
 
 .sushi {
-background-image: url(../img/sushi.JPG); 
+background-image: url(../img/sushi.jpg); 
 background-size: 480px 620px;
 background-repeat: no-repeat;
 /* display: block; */
@@ -106,7 +106,7 @@ border: 50px;
 }
 
 .culture {
-background-image: url(../img/culture2.JPG);
+background-image: url(../img/culture2.jpg);
 background-size: 480px 620px;
 background-repeat: no-repeat;
 /* display: block; */
