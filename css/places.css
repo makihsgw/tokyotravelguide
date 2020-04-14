@@ -40,7 +40,7 @@
 }
 
 header {
-  background-image: url(..//img/heading.jpg);
+  background-image: url(../img/heading.jpg);
   background-repeat: no-repeat;  
   background-size: 1425px 700px;
   width: 100%;
